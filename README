@@ -1,0 +1,21 @@
+PCTest is a command line application that accepts a simple set of arguments, in a specified order.
+
+PCTest inputPathName outputPathName sortAlgorithm
+
+where the options for the sorting algorithm are 'merge' and
+'quick'. Both algorithms have the potential to run in O(n log n) time
+and used in some libraries.
+
+Instructions to build the project:
+
+1)  tar xvf pctest.tar
+
+2) cd into PCTest/build
+
+3) run cmake
+
+     cmake ..
+
+     cmake --build  . --target install
+
+4) the executible will be installed PCTest/bin
